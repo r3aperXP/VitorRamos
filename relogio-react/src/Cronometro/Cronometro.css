@@ -1,0 +1,68 @@
+.cronometro-time {
+    width: auto;
+    height: 800px;
+    background-color: black
+  }
+  
+  .cronometro-text {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color: black;
+  }
+  
+  .cronometro-text span {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
+ 
+  }
+  
+  .row-table {
+    display: block;
+    margin: 10px 10px 10px 10px;
+    overflow-y: auto;
+  }
+  
+  .row-table .interval {
+    color:red;
+  }
+  
+  .col {
+    margin: 0 20px;
+  }
+  
+  table {
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: black;
+   
+  }
+  
+  table td,
+  th {
+    font-size: 20px;
+    border-bottom: 5px solid #000000;
+    color: black;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  body.white table td,
+  th {
+    color: #000000;
+  }
