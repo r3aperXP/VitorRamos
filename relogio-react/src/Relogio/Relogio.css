@@ -1,0 +1,53 @@
+.relogio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;    
+    background-color: black;
+    color: red;
+  }
+  
+  .relogio-text {
+    margin-top: 15vh;
+    height: 100%;
+    width: 100%;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color:white;
+  }
+
+  .relogio-text .relogio-horario{
+    text-align: center;
+    display: block;
+  }
+ 
+   
+  .display{ 
+
+    padding-bottom: 5vh;
+  }
+  
+  .relogio .display button {
+    color: black;
+    width:25vw ;
+    height: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 3vw;
+    border:  outset rgba(100, 98, 224, 0.3);
+    background-color: red;
+  
+  }
+  
+  
+  .relogio .display-buttons {
+    text-align: center;
+  }
+  
+
+  
+
+  
+
+  
